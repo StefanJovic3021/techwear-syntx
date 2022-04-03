@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title -->
+    <title>//SYNTX TECHWEAR | Bestsellers</title>
+    <!-- Essentials -->
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="techwear, clothes, hoodie, joggers, cyber, cyberpunk, dark, bestseller"/>
+    <meta name="author" content="Stefan Jović">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+    <!-- Web-Icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+    <!-- CSS (Using SASS) -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>   
+</head>
+<body class="bg-dark">
+    <!-- Header start -->
+    <header class="hdr sticky-top sj_borderBottom">
+        <div class="container-fluid bg-dark sj_customFont2">
+          <!-- Navigation start -->
+            <div class="row sj_flexCenter">
+                <div class="col-12 col-xxl-3 sj_mediaCenter">
+                    <a href="index.html"><div class="logo"></div></a>
+                </div>
+                <div class="col-12 col-xxl-9 sj_mediaCenter">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container-fluid">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Best sellers</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Clothing
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="navbarDarkDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="clothing-all.html">All</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="clothing-pants.html">Pants</a></li>
+                                  <li><a class="dropdown-item" href="clothing-jackets.html">Jackets</a></li>
+                                  <li><a class="dropdown-item" href="clothing-hoodies.html">Hoodies</a></li>
+                                  <li><a class="dropdown-item" href="clothing-vests.html">Vests</a></li>
+                                  <li><a class="dropdown-item" href="clothing-shirts.html">Shirts</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="footwear.html">Footwear</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Accessories
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="navbarDarkDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="accessories-bags.html">Bags</a></li>
+                                  <li><a class="dropdown-item" href="accessories-gloves.html">Gloves</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="masks.html">Masks</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="contact_us.html">Contact us</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+            <!-- Navigation end -->
+        </div>
+    </header>
+    <!-- Header end -->
+    <main>
+        <div class="container techdef sj_customFont text-light sj_margin">
+            <div class="row">
+                <div class="hidden-ms col-md-2"></div>
+                <div class="col-ms-12 col-md-10">
+                    <h2 class="text-center">Best sellers</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="hidden-ms col-md-2">
+                    <hr/>
+                </div>
+                <div class="col-ms-12 col-md-10">
+                    <p class="text-muted text-center">
+                      These items were frequently bought by many techwear enthusiast.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-ms-4 col-md-2">
+                  <div class="accordion sj_customFont4" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item bg-dark text-light">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Gender Filters
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <div class="form-check">
+                            <input class="form-check-input dark" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Male
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Female
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Unisex
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-dark text-light">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Color Filters
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Black
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Lunarcore
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Red
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Blue
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Green
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Yellow
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-dark text-light">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Brand Filters
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              ACRNONYM
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Guerilla Group
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              MXDVS
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Nikelabs ACG
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Holy Grail
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-ms-8 col-md-10">
+                    <div class="row row-cols-2 row-cols-lg-3 row-cols-xl-4 g-4 text-light">
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                            <img src="images/jackets/techwear_windbreaker/techwear-windbreaker-674_540x.jpg" class="card-img-top" alt="Techwear windproof jacket">
+                            <div class="card-body">
+                              <h5 class="card-title sj_customFont2">Windbreaker</h5>
+                              <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                            </div>
+                        </div></a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/accessories/bags/messenger_bag_techwear/messenger-bag-techwear-721_540x.jpg" class="card-img-top" alt="Techwear Messenger Bag">
+                        <div class="card-body">
+                          <h5 class="card-title sj_customFont2">Techwear Messenger Bag</h5>
+                          <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                        </div>
+                        </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/footwear/tech_sneakers/tech-sneakers-221_540x.jpg" class="card-img-top" alt="Techwear Tech Sneakers">
+                          <div class="card-body">
+                            <h5 class="card-title sj_customFont2">Tech Sneakers</h5>
+                            <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                          </div>
+                        </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/footwear/best_techwear_shoes/best-techwear-shoes-402_540x.jpg" class="card-img-top" alt="Techwear p43 shoes">
+                        <div class="card-body">
+                          <h5 class="card-title sj_customFont2">Techwear P43 Shoes</h5>
+                          <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                        </div>
+                       </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                            <img src="images/jackets/tactical_jacket_with_hood/tactical-jacket-with-hood-803_540x.jpg" class="card-img-top" alt="Techwear jacket with hood">
+                            <div class="card-body">
+                              <h5 class="card-title sj_customFont2">Tactical jacket with hood</h5>
+                              <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                            </div>
+                        </div></a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/masks/futuristic_mask/st,small,507x507-pad,600x600,f8f8f8.jpg" class="card-img-top" alt="Techwear Futuristic Cyber Mask">
+                        <div class="card-body">
+                          <h5 class="card-title sj_customFont2">Futuristic Cyber Mask</h5>
+                          <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                        </div>
+                        </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/accessories/gloves/black_tactical_gloves/black-tactical-gloves-502_540x.jpg" class="card-img-top" alt="Techwear Black Tactical Gloves">
+                        <div class="card-body">
+                          <h5 class="card-title sj_customFont2">Black Tactical Gloves</h5>
+                          <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                        </div>
+                        </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/pants/pocket_joggers/pocket-joggers-167_540x.jpg" class="card-img-top" alt="Techwear pants">
+                        <div class="card-body">
+                          <h5 class="card-title sj_customFont2">Joggers F3-2Y</h5>
+                          <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                        </div>
+                        </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                            <img src="images/vests/bulletproof_vest_techwear/bulletproof-vest-techwear-400_540x.jpg" class="card-img-top" alt="Techwear Bulletproof vest">
+                            <div class="card-body">
+                              <h5 class="card-title sj_customFont2">Bulletproof vest</h5>
+                              <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                            </div>
+                        </div></a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/footwear/black_boots_aesthetic/black-boots-aesthetic-161_540x.jpg" class="card-img-top" alt="Techwear Black Boots">
+                          <div class="card-body">
+                            <h5 class="card-title sj_customFont2">Black Aesthetic Boots</h5>
+                            <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                          </div>
+                        </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/accessories/bags/tactical_bumbag/techwear-bumbag-753_540x.jpg" class="card-img-top" alt="Techwear Tactical Bumbag">
+                        <div class="card-body">
+                          <h5 class="card-title sj_customFont2">Techwear Tactical Bumbag</h5>
+                          <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                        </div>
+                        </div></a>         
+                      </div>
+                      <div class="col">
+                        <a href="#" class="link sj_noLinkDecor"><div class="card h-100 bg-dark text-center sj_cardShadowBold sj_interactiveShop">
+                        <img src="images/masks/techwear_neck_gaiter/techwear-neck-gaiter-681_540x.jpg" class="card-img-top" alt="Techwear Neck Gaiter">
+                        <div class="card-body">
+                          <h5 class="card-title sj_customFont2">Black Neck Gaiter</h5>
+                          <p class="card-text sj_pricePointText"><span class="text-muted text-decoration-line-through">$89.99</span> $79.99<br/><small class="sj_pricePointText">save 11%</small></p>
+                        </div>
+                        </div></a>         
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer content start -->
+    <div class="container-fluid sj_noPadding sj_footerMarginTop">
+        <footer class="py-5 sj_blackFooter text-light sj_customFont3">
+          <div class="row">
+            <div class="col-4 col-sm-3">
+              <h5>INFORMATION</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Techwear</a></li>
+                <li class="nav-item mb-2"><a href="https://stefanjovic3021.github.io/portfolio/" target="_blank" class="nav-link p-0 text-muted">About author</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sitemap</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Shipping Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Return Policy</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-4 col-sm-3">
+              <h5>|--------------|</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Legal Notice</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of sale</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Track your parcel</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-4 col-sm-3">
+              <h5>BRAND LINKS</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://store.mxdvs.co/" target="_blank" class="nav-link p-0 text-muted">MXDVS</a></li>
+                <li class="nav-item mb-2"><a href="https://acrnm.com/" target="_blank" class="nav-link p-0 text-muted">ACRONYM</a></li>
+                <li class="nav-item mb-2"><a href="https://www.guerrilla-group.co/" target="_blank" class="nav-link p-0 text-muted">Guerrilla Group</a></li>
+                <li class="nav-item mb-2"><a href="https://www.nike.com/acg" target="_blank" class="nav-link p-0 text-muted">Nike ACG</a></li>
+                <li class="nav-item mb-2"><a href="https://holygrail-official.myshopify.com/" target="_blank" class="nav-link p-0 text-muted">Holy Grail</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-12 col-sm-3">
+              <form method="POST" action="contact.php" id="forma">
+                <h5>Subscribe to our newsletter</h5>
+                <p>Never miss our new deals, seasons and releases.</p>
+                <div class="d-flex w-100 gap-2 sj_customFont2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Your E-mail address">
+                  <button class="btn btn-secondary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>© 2022 SYNTX, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3 lab la-twitter sj_customIconSizeFooter"><a class="link-secondary" href="https://twitter.com"></a></li>
+              <li class="ms-3 lab la-instagram sj_customIconSizeFooter"><a class="link-secondary" href="https://www.instagram.com/"></a></li>
+              <li class="ms-3 lab la-facebook-f sj_customIconSizeFooter"><a class="link-secondary" href="https://www.facebook.com/"></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <!-- Footer content end -->
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+  </html>
