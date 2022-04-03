@@ -1,107 +1,87 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/index.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.99</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/index.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.99</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/best-sellers.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.95</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/best-sellers.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/clothing-all.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.92</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/clothing-all.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/clothing-pants.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/clothing-pants.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/clothing-jackets.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/clothing-jackets.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/clothing-hoodies.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/clothing-hoodies.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/clothing-vests.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/clothing-vests.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/clothing-shirts.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/clothing-shirts.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/accessories-bags.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/accessories-bags.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/accessories-gloves.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/accessories-gloves.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/footwear.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.90</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/footwear.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/masks.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.85</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/masks.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
 </url>
 <url>
-<loc>
-https://stefanjovic3021.github.io/techwear-syntx/contact_us.html
-</loc>
-<lastmod>2022-04-03</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.80</priority>
+	<loc>https://stefanjovic3021.github.io/techwear-syntx/contact_us.html</loc>
+    <lastmod>2022-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
 </url>
+
+
 </urlset>
