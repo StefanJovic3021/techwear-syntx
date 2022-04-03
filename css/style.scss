@@ -1,0 +1,165 @@
+@font-face {
+    font-family: bgothl;
+    src: url(../fonts/bgothl.ttf);
+}
+@font-face{
+    font-family: OxideSolidWeb;
+    src: url(../fonts/OxideSolidWeb.ttf);
+}
+@font-face{
+    font-family: NostromoRegular;
+    src: url(../fonts/NostromoRegular.otf);
+}
+@font-face{
+    font-family: Technic;
+    src: url(../fonts/technic_.ttf);
+}
+@mixin cool_shadow{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+                rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+@mixin cool_shadow2{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+                rgba(0, 0, 0, 0.06) 0px 2px 1px,
+                rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                rgba(0, 0, 0, 0.09) 0px 16px 8px,
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+body{
+    position: relative;
+}
+.logo{
+    background-image: url('../images/logo_v3.png');
+    width: 20vw;
+    height: 10vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sj_color{
+    color: #000;
+}
+.sj_blackBackground{
+    background-color: #000 !important;
+}
+.sj_customCenteeringNav{
+    text-align: center !important;
+    justify-content: center !important;
+}
+.sj_noPadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding: 0px !important;
+}
+.hdr ul li a{
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+}
+.sj_customFont{
+    font-family: 'bgothl';
+    font-size: 20px;
+}
+.sj_customFont2{
+    font-family: 'OxideSolidWeb';
+    font-size: 20px;
+}
+.sj_customFont3{
+    font-family: 'NostromoRegular';
+    font-size: 15px;
+}
+.sj_customFont4{
+    font-family: 'Technic';
+    font-size: 16px;
+}
+.background-banner{
+    background-image: url('../images/wallpaper4_2_compressed.jpg');
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-banner_blurred{
+    background-image: url('../images/wallpaper4_2_compressed_blurred.jpg');
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sj_margin{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+.sj_borderBottom{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.6) !important;
+}
+.sj_flexCenter{
+    align-items: center !important;
+    justify-content: center !important;
+    justify-items: center !important;
+}
+.sj_mediaCenter{
+    display: flex;
+}
+.sj_borderRed{
+    border: 2px solid red;
+}
+.sj_cardMainPage{
+    transition: 0.5s;
+}
+.sj_cardMainPage:hover{
+    transform: scale(1.03);
+}
+.sj_cardShadow{
+    @include cool_shadow();
+}
+.sj_cardShadowBold{
+    @include cool_shadow2();
+}
+.sj_blackFooter{
+    background-color: #000;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+.sj_footerMarginTop{
+    margin-top: 90px !important;
+}
+.sj_pricePointText{
+    font-size: 15px !important;
+}
+.sj_shopInnerPadding{
+    padding: 2em !important;
+}
+.sj_noLinkDecor{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.sj_interactiveShop{
+    transition: 0.6s;
+}
+.sj_interactiveShop:hover{
+    img{
+        opacity: 0.7;
+    }
+}
+.sj_contactFormHolder{
+    padding: 10em 5em !important;
+    background-color: #212529c7;
+}
+.sj_contactFormPadding{
+    padding: 10em 0em !important;
+}
+.background-banner_blurred .card-text{
+    font-size: 15px;
+    i{
+        font-size: 22px;
+    }
+}
+.sj_customIconSizeFooter{
+    font-size: 20px;
+}
+
+@import './responsive.scss';
